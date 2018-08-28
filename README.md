@@ -12,7 +12,7 @@ If you find this code useful, please make sure to cite our paper in your work.
 
 ## Installation
 - git clone https://github.com/YuvalNirkin/egohands_augmentations
-- Download and extract [egohands_data.zip](http://vision.soic.indiana.edu/egohands_files/egohands_data.zip) to the root directory.
+- Download and extract [egohands_data.zip](http://vision.soic.indiana.edu/egohands_files/egohands_data.zip) to the root directory if you intend to filter the images yourself otherwise download and extract [selected.zip](https://github.com/YuvalNirkin/egohands_augmentations/releases/download/v1.0/selected.zip)
 
 ## Usage
 ```Matlab
@@ -20,6 +20,7 @@ extractHands('initial_extract');
 mkdir selected
 
 % Select good segmentations and copy them to "selected" together with their images
+% or use the images from the "selected.zip" file
 
 mkdir selected_transformed
 transformHands('selected', 'selected_transformed');
