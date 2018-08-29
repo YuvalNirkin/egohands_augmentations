@@ -2,7 +2,7 @@
 [Yuval Nirkin](http://www.nirkin.com/), [Iacopo Masi](http://www-bcf.usc.edu/~iacopoma/), [Anh Tuan Tran](https://sites.google.com/site/anhttranusc/), [Tal Hassner](http://www.openu.ac.il/home/hassner/), and [Gerard Medioni](http://iris.usc.edu/people/medioni/index.html).
 
 ## Overview
-Code for the hand augmentation described in the paper:
+Code for the hand augmentation, based on the data provided by the [EgoHands Project](http://vision.soic.indiana.edu/projects/egohands/), described in the paper:
 
 Yuval Nirkin, Iacopo Masi, Anh Tuan Tran, Tal Hassner, Gerard Medioni, "[On Face Segmentation, Face Swapping, and Face Perception](https://arxiv.org/abs/1704.06729)", IEEE Conference on Automatic Face and Gesture Recognition (FG), Xi'an, China on May 2018
 
@@ -12,7 +12,7 @@ If you find this code useful, please make sure to cite our paper in your work.
 
 ## Installation
 - git clone https://github.com/YuvalNirkin/egohands_augmentations
-- Download and extract [egohands_data.zip](http://vision.soic.indiana.edu/egohands_files/egohands_data.zip) to the root directory if you intend to filter the images yourself otherwise download and extract [selected.zip](https://github.com/YuvalNirkin/egohands_augmentations/releases/download/v1.0/selected.zip)
+- Download and extract [egohands_data.zip](http://vision.soic.indiana.edu/egohands_files/egohands_data.zip) from the [EgoHands Project](http://vision.soic.indiana.edu/projects/egohands/) to the root directory if you intend to filter the images yourself otherwise download and extract [selected.zip](https://github.com/YuvalNirkin/egohands_augmentations/releases/download/v1.0/selected.zip)
 
 ## Usage
 ```Matlab
