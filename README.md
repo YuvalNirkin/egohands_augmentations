@@ -39,7 +39,7 @@ createLFWHandAugmentations(<lfw_root_dir>, 'selected_transformed_images', 'selec
 
 ## Citation
 
-Please cite our paper with the following bibtex if you use our face renderer:
+Please cite our paper with the following bibtex if you use found our code useful:
 
 ``` latex
 @inproceedings{nirkin2018_faceswap,
